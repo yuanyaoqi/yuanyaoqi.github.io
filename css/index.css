@@ -1,0 +1,55 @@
+body{
+    background-color: #2a6496;
+    color: dimgrey;
+}
+
+@media (min-width: 800px) {
+    .container{
+        width: 70%;
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        width: 100%;
+    }
+}
+.container{
+    @media(max-widows:;)
+    background-color: white;
+    padding: 0px;
+}
+/*个人信息栏*/
+#subNav{
+    width: 30%;
+    padding: 20px;
+    background-color: whitesmoke;
+    float: left;
+}
+#subNav img{
+    width:60%;
+    margin-left: 20%;
+}
+hr{
+    margin: 10px 0px;
+    border-color: grey;
+}
+#subNav ul{
+    padding: 0px;
+}
+#subNav li{
+    margin: 8px 20px;
+    list-style: none;
+    padding-left: 5px;
+    border-left: 5px solid grey;
+    background-color: white;
+}
+#subNav li span{
+    width: 50%;
+    background-color: #00b7ed;
+}
+/*主题内容*/
+#content{
+    width: 70%;
+    padding: 20px;
+    float: left;
+}
