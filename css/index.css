@@ -1,10 +1,29 @@
 body{
-    background-color: #2a6496;
+    background-color: #283c51;
     color: dimgrey;
 }
-
+a{
+    color: #283c51;
+}
+a:hover{
+    color: white;
+    background-color: #283c51;
+}
+h4,h3{
+    color: #283c51;
+}
+hr{
+    margin: 10px 0px;
+    border-color: grey;
+}
 @media (min-width: 800px) {
     .container{
+        width: 70%;
+    }
+    aside{
+        width: 30%;
+    }
+    article{
         width: 70%;
     }
 }
@@ -12,44 +31,76 @@ body{
     .container{
         width: 100%;
     }
+    aside{
+        width: 100%;
+    }
+    article{
+        width: 100%;
+    }
 }
 .container{
-    @media(max-widows:;)
     background-color: white;
     padding: 0px;
 }
 /*个人信息栏*/
-#subNav{
-    width: 30%;
+aside{
     padding: 20px;
     background-color: whitesmoke;
     float: left;
 }
-#subNav img{
+aside img{
     width:60%;
     margin-left: 20%;
 }
-hr{
-    margin: 10px 0px;
-    border-color: grey;
-}
-#subNav ul{
+aside ul{
     padding: 0px;
 }
-#subNav li{
+aside li{
     margin: 8px 20px;
     list-style: none;
     padding-left: 5px;
     border-left: 5px solid grey;
     background-color: white;
 }
-#subNav li span{
+aside li span{
     width: 50%;
     background-color: #00b7ed;
 }
+aside .label{
+    display: inline-block;
+    margin-bottom: 5px !important;
+}
+/*标签颜色*/
+.label_html{
+    background-color: dimgrey;
+}
+.label_css{
+    background-color: orange;
+}
+.label_canvas{
+    background-color: #00c3b6;
+}
+.label_javascript{
+    background-color: palevioletred;
+}
+.label_nodejs{
+    background-color: #00a0df;
+}
+.label-jquery{
+    background-color: maroon;
+}
+.label_mysql{
+    background-color: green;
+}
+.label-bootstrap{
+    background-color: rebeccapurple;
+}
+.label_angular{
+    background-color: teal;
+}
 /*主题内容*/
-#content{
-    width: 70%;
-    padding: 20px;
+article{
+    padding: 30px;
     float: left;
+    background-color: white;
 }
