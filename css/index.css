@@ -39,7 +39,7 @@ hr{
     }
 }
 .container{
-    background-color: white;
+    background-color: whitesmoke;
     padding: 0px;
 }
 /*个人信息栏*/
@@ -47,7 +47,6 @@ aside{
     padding: 20px;
     background-color: whitesmoke;
     float: left;
-    height: 840px;
 }
 aside img{
     width:70%;
