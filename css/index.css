@@ -39,7 +39,7 @@ hr{
     }
 }
 .container{
-    background-color: whitesmoke;
+    background-color: white;
     padding: 0px;
 }
 /*个人信息栏*/
@@ -70,7 +70,25 @@ aside li span{
 aside .label{
     display: inline-block;
     margin-bottom: 5px !important;
+    font-size: medium;
+}
+aside .resume{
+    background-color: darkgrey;
+    color: white;
+    height: 50px;
+    text-align: center;
     font-size: large;
+    line-height: 50px;
+    width: 80%;
+    margin: 20px 10%;
+    border-radius: 10px;
+}
+aside .resume a{
+    color: white;
+}
+aside .resume a:hover{
+    background-color: transparent;
+    color: #283c51;
 }
 /*标签颜色*/
 .label_html{
